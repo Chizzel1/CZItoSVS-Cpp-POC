@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Projects/CZIConvert/third_party/libczi/build/cmake_install.cmake",
+		"C:/Projects/CZIConvert/third_party/libczi/build/Src/cmake_install.cmake",
+		"C:/Projects/CZIConvert/third_party/libczi/build/Src/JxrDecode/cmake_install.cmake",
+		"C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

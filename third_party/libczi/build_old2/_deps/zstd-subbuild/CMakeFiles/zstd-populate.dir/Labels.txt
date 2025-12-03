@@ -1,0 +1,14 @@
+# Target labels
+ zstd-populate
+# Source files and their labels
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/zstd-populate
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/a21492ccc26d4518f0c8a54857f0dd38/zstd-populate.rule
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/95a1343d44c7372f14b51032a2ea7190/zstd-populate-complete.rule
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-build.rule
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-configure.rule
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-download.rule
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-install.rule
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-mkdir.rule
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-patch.rule
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-test.rule
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-update.rule

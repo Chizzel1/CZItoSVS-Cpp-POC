@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/zstd-populate"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/a21492ccc26d4518f0c8a54857f0dd38/zstd-populate.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/95a1343d44c7372f14b51032a2ea7190/zstd-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-build.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-download.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-install.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-test.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/CMakeFiles/48c9a36e361ccb07fb2c65b7a88361d7/zstd-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"zstd-populate"
+		],
+		"name" : "zstd-populate"
+	}
+}

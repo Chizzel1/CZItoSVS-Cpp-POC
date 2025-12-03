@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/ExternalProject.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/ExternalProject/PatchInfo.txt.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/ExternalProject/RepositoryInfo.txt.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/ExternalProject/UpdateInfo.txt.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/ExternalProject/cfgcmd.txt.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/ExternalProject/gitclone.cmake.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/ExternalProject/mkdirs.cmake.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FetchContent/CMakeLists.cmake.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake
+C:/Projects/CZIConvert/third_party/libczi/Src/CMakeLists.txt
+C:/Projects/CZIConvert/third_party/libczi/build/vendor/eigen3/tmp/eigen_ext-mkdirs.cmake
+C:/Projects/CZIConvert/third_party/libczi/cmake/ExternalEIGEN3.cmake
+C:/Projects/CZIConvert/third_party/libczi/cmake/utilities.cmake

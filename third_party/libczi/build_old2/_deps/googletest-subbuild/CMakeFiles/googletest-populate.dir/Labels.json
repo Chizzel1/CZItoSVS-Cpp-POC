@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-subbuild/CMakeFiles/e4bc0b0d606914bf1f5ea71bc35e08a6/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-subbuild/CMakeFiles/a2bd72dd8a35e469a7b54bff17100385/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-subbuild/CMakeFiles/f2600b813febd404eb333e3a83fc79b5/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-subbuild/CMakeFiles/f2600b813febd404eb333e3a83fc79b5/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-subbuild/CMakeFiles/f2600b813febd404eb333e3a83fc79b5/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-subbuild/CMakeFiles/f2600b813febd404eb333e3a83fc79b5/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-subbuild/CMakeFiles/f2600b813febd404eb333e3a83fc79b5/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-subbuild/CMakeFiles/f2600b813febd404eb333e3a83fc79b5/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-subbuild/CMakeFiles/f2600b813febd404eb333e3a83fc79b5/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-subbuild/CMakeFiles/f2600b813febd404eb333e3a83fc79b5/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

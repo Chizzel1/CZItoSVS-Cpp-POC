@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\JxrDecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\common\src\log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\decode\decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\decode\segdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\decode\strdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\decode\strInvTransform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\decode\strPredQuantDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\decode\postprocess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\decode\JXRTranscode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\encode\strenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\encode\encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\encode\segenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\encode\strFwdTransform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\encode\strPredQuantEnc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\sys\strcodec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\sys\strTransform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\sys\image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\sys\adapthuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\sys\strPredQuant.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\jxrgluelib\JXRGlue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\jxrgluelib\JXRGlueJxr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\jxrgluelib\JXRMeta.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\jxrgluelib\JXRGluePFC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\JxrDecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\common\include\guiddef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\common\include\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\decode\decode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\encode\encode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\sys\strcodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\sys\windowsmediaphoto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\sys\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\sys\strTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\image\sys\ansi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\jxrgluelib\JXRGlue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\jxrlib\jxrgluelib\JXRMeta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\Src\JxrDecode\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E9531459-744B-31E5-90F1-3213F2DD5E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8561B0C4-34CC-3EC4-8A74-6B126EAA5C48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\build\CMakeFiles\55c7fc6ab4f57e42acea7bd4c8d153f6\eigen_ext-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\build\CMakeFiles\55c7fc6ab4f57e42acea7bd4c8d153f6\eigen_ext-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\build\CMakeFiles\55c7fc6ab4f57e42acea7bd4c8d153f6\eigen_ext-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\build\CMakeFiles\55c7fc6ab4f57e42acea7bd4c8d153f6\eigen_ext-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\build\CMakeFiles\55c7fc6ab4f57e42acea7bd4c8d153f6\eigen_ext-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\build\CMakeFiles\55c7fc6ab4f57e42acea7bd4c8d153f6\eigen_ext-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\build\CMakeFiles\55c7fc6ab4f57e42acea7bd4c8d153f6\eigen_ext-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\build\CMakeFiles\5b6588e604d0b41ef3b55749ad7ee840\eigen_ext-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\build\CMakeFiles\dfdea7d6ecb5f3712c1d1625b73f0d26\eigen_ext.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\Src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\CMakeFiles\eigen_ext" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{96A2D483-AB17-3830-BDD6-5756EAAE8A6D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

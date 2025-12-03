@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "czi-to-svs",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "tiff",
+    "libjpeg-turbo",
+    "tbb",
+    "fmt",
+    "spdlog",
+    "catch2"
+  ]
+}

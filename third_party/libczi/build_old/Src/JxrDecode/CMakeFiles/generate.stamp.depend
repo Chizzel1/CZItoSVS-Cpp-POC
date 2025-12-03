@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSymbolExists.cmake
+C:/Projects/CZIConvert/third_party/libczi/Src/JxrDecode/CMakeLists.txt
+C:/Projects/CZIConvert/third_party/libczi/Src/JxrDecode/JxrDecode_Config.h.in

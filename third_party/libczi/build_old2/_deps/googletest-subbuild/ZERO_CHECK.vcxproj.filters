@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-subbuild\CMakeFiles\e4bc0b0d606914bf1f5ea71bc35e08a6\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4BC80B70-0DEB-3A44-9A07-670E1B391410}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

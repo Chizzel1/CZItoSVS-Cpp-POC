@@ -1,0 +1,23 @@
+# Based on https://docs.codecov.com/docs/common-recipe-list#set-non-blocking-status-checks
+coverage:
+  status:
+    project:
+      default:
+        informational: true
+    patch:
+      default:
+        informational: true
+# Based on https://docs.codecov.com/docs/flags#recommended-automatic-flag-management
+flag_management:
+  default_rules:
+    statuses:
+      - type: project
+        informational: true
+      - type: patch
+        informational: true
+ignore:
+  - "Src/CZICmd"  # ignore folders and all its contents
+  - "Src/libCZI_UnitTests"
+  - "Src/libCZI/pugiconfig.hpp"   # exclude pugixml
+  - "Src/libCZI/pugixml.hpp"
+  - "Src/libCZI/pugixml.cpp"

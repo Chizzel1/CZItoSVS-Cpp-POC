@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\BitmapOperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CreateBitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziAttachment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziAttachmentsDirectory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziDimensionInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziDisplaySettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataDocumentInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataDocumentInfo2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataSegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziParse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CZIReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziReaderCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziReaderWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziStructs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziSubBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziSubBlockDirectory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\decoder_wic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\decoder_zstd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\DimCoordinate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\IndexSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Lib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Site.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\MD5Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\MultiChannelCompositor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\pugixml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelAccessorBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelPyramidLevelTileAccessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelScalingTileAccessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelTileAccessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelTileCompositor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\splines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\stdAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\utilities_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\zstdCompress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Pixels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\jxrlibcompress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\streamsFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\curlhttpinputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\windowsfileinputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\uwpfileinputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\simplefileinputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\preadfileinputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\azureblobinputstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\subblock_cache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SubblockMetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SubblockAttachmentAccessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\BitmapOperationsBitonal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\bitmapData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\BitmapOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziAttachment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziAttachmentsDirectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziDimensionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziDisplaySettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataDocumentInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataDocumentInfo2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziParse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziReaderCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CZIReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziReaderWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziSubBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziSubBlockDirectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\decoder_wic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\decoder_zstd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\FileHeaderSegmentData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\ImportExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\inc_libCZI_Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\IndexSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Compositor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_compress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_DimCoordinate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Metadata2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Pixels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_ReadWrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Site.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Write.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_StreamsLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_SubBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\MD5Sum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\MultiChannelCompositor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelAccessorBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelPyramidLevelTileAccessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelScalingTileAccessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelTileAccessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelTileCompositor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\Site.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\splines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\stdAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\XmlNodeWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\BitmapOperations.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\pugiconfig.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\pugixml.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\curlhttpinputstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\windowsfileinputstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\uwpfileinputstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\simplefileinputstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\preadfileinputstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\azureblobinputstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\subblock_cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SubblockMetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SubblockAttachmentAccessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\BitmapOperationsBitonal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\JxrDecode.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\log.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\decode.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\segdec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strdec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strInvTransform.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strPredQuantDec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\postprocess.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\JXRTranscode.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strenc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\encode.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\segenc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strFwdTransform.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strPredQuantEnc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strcodec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strTransform.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\image.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\adapthuff.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strPredQuant.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\JXRGlue.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\JXRGlueJxr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\JXRMeta.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\JXRGluePFC.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E9531459-744B-31E5-90F1-3213F2DD5E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{CF419F25-ADBC-37F9-8445-EC57D2729DAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8561B0C4-34CC-3EC4-8A74-6B126EAA5C48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

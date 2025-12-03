@@ -1,0 +1,35 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.0/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeASMCompiler.cmake.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeASMInformation.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCompilerIdDetection.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompiler.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindBinUtils.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLinkerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Compiler/MSVC-ASM.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeASMLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeInspectASMLinker.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckLinkerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/GNU.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/Windows-ASM.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/Windows-GNU-ASM.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/Windows-GNU.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake
+C:/Projects/CZIConvert/third_party/libczi/build/CMakeFiles/4.0.1/CMakeASMCompiler.cmake
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-src/build/cmake/CMakeLists.txt
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-src/build/cmake/CMakeModules/AddZstdCompilationFlags.cmake
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-src/build/cmake/CMakeModules/GetZstdLibraryVersion.cmake
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-src/build/cmake/zstdConfig.cmake.in

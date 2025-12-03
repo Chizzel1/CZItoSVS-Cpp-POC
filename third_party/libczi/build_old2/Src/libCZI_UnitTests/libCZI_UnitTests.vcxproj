@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3F4923F6-0678-3076-B245-BCE6669B412B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libCZI_UnitTests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI_UnitTests\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libCZI_UnitTests.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libCZI_UnitTests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI_UnitTests\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libCZI_UnitTests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libCZI_UnitTests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI_UnitTests\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libCZI_UnitTests.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libCZI_UnitTests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI_UnitTests\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libCZI_UnitTests.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libCZI_UnitTests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googletest/include" /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googletest" /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googlemock/include" /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googlemock"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_LIBCZISTATICLIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_LIBCZISTATICLIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Projects/dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/Debug/libCZI_UnitTests.exe -installedDir C:/Projects/dev/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\libCZI\Debug\libCZIStaticd.lib;..\..\lib\Debug\gtest.lib;..\..\lib\Debug\gmock.lib;..\..\_deps\zstd-build\lib\Debug\zstd_static.lib;ole32.lib;Windowscodecs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/Debug/libCZI_UnitTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/Debug/libCZI_UnitTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googletest/include" /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googletest" /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googlemock/include" /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googlemock"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_LIBCZISTATICLIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_LIBCZISTATICLIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Projects/dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/Release/libCZI_UnitTests.exe -installedDir C:/Projects/dev/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\libCZI\Release\libCZIStatic.lib;..\..\lib\Release\gtest.lib;..\..\lib\Release\gmock.lib;..\..\_deps\zstd-build\lib\Release\zstd_static.lib;ole32.lib;Windowscodecs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/Release/libCZI_UnitTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/Release/libCZI_UnitTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googletest/include" /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googletest" /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googlemock/include" /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googlemock"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_LIBCZISTATICLIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_LIBCZISTATICLIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Projects/dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/MinSizeRel/libCZI_UnitTests.exe -installedDir C:/Projects/dev/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\libCZI\MinSizeRel\libCZIStatic.lib;..\..\lib\MinSizeRel\gtest.lib;..\..\lib\MinSizeRel\gmock.lib;..\..\_deps\zstd-build\lib\MinSizeRel\zstd_static.lib;ole32.lib;Windowscodecs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/MinSizeRel/libCZI_UnitTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/MinSizeRel/libCZI_UnitTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googletest/include" /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googletest" /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googlemock/include" /external:I "C:/Projects/CZIConvert/third_party/libczi/build/_deps/googletest-src/googlemock"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_LIBCZISTATICLIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_LIBCZISTATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googletest;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock\include;C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-src\googlemock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Projects/dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/RelWithDebInfo/libCZI_UnitTests.exe -installedDir C:/Projects/dev/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\libCZI\RelWithDebInfo\libCZIStatic.lib;..\..\lib\RelWithDebInfo\gtest.lib;..\..\lib\RelWithDebInfo\gmock.lib;..\..\_deps\zstd-build\lib\RelWithDebInfo\zstd_static.lib;ole32.lib;Windowscodecs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/RelWithDebInfo/libCZI_UnitTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/RelWithDebInfo/libCZI_UnitTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Projects/CZIConvert/third_party/libczi/Src/libCZI_UnitTests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/CZIConvert/third_party/libczi -BC:/Projects/CZIConvert/third_party/libczi/build --check-stamp-file C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI_UnitTests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Projects/CZIConvert/third_party/libczi/Src/libCZI_UnitTests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/CZIConvert/third_party/libczi -BC:/Projects/CZIConvert/third_party/libczi/build --check-stamp-file C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI_UnitTests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Projects/CZIConvert/third_party/libczi/Src/libCZI_UnitTests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/CZIConvert/third_party/libczi -BC:/Projects/CZIConvert/third_party/libczi/build --check-stamp-file C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI_UnitTests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Projects/CZIConvert/third_party/libczi/Src/libCZI_UnitTests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/CZIConvert/third_party/libczi -BC:/Projects/CZIConvert/third_party/libczi/build --check-stamp-file C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI_UnitTests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI_UnitTests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\inc_libCZI.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\include_gtest.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\testImage.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_readerwriter.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\main.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\SegmentWalker.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\testImageHiLo.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_splines.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\MemInputOutputStream.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\SegmentWalker.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_IndexSet.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_StreamImplementations.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\MemInputOutputStream.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_bitmapOperations.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_JxrlibCodec.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_Utilities.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\MemOutputStream.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_CziSubBlockDirectory.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_LUT.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_writer.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\MemOutputStream.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_DimCoordinate.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_metadatabuilder.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_ZstdCompress.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\MockMetadataSegment.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_DisplaySettings.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_metadatareading.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_ZstdDecode.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\MockMetadataSegment.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\testImage1.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_multichannelcomposite.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\utils.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\testImage.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_reader.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\utils.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_Accessors.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_CZIParse.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_streamslib.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_curlhttpstream.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_rectanglecoverage.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_TileAccessorCoverageOptimization.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_SubBlockCache.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_azureblobstream.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_frame_of_reference_transform.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_subblockmetadata.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_subblockattachment.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_maskawarecomposition.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI_UnitTests\test_pixels.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Projects\CZIConvert\third_party\libczi\build\ZERO_CHECK.vcxproj">
+      <Project>{64E334BE-4EB0-396B-AAA4-4CAB4CE26C0F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-build\googlemock\gmock.vcxproj">
+      <Project>{C39C18FA-A275-3C5A-97C4-800169B60931}</Project>
+      <Name>gmock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CZIConvert\third_party\libczi\build\_deps\googletest-build\googletest\gtest.vcxproj">
+      <Project>{81F958F8-F060-3D8B-B286-D3038035DF08}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI\libCZIStatic.vcxproj">
+      <Project>{2B9D659E-F61B-3E37-BEA7-31CD3C3ACF2B}</Project>
+      <Name>libCZIStatic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-build\lib\libzstd_static.vcxproj">
+      <Project>{E49D0296-B991-3EC0-86C3-612A4FECB4BE}</Project>
+      <Name>libzstd_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

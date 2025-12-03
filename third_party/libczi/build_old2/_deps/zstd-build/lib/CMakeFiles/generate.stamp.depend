@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-src/build/cmake/CMakeModules/JoinPaths.cmake
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-src/build/cmake/lib/CMakeLists.txt
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-src/build/cmake/lib/cmake_uninstall.cmake.in
+C:/Projects/CZIConvert/third_party/libczi/build/_deps/zstd-src/lib/libzstd.pc.in

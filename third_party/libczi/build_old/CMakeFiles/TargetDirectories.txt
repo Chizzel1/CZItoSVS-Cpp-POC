@@ -1,0 +1,6 @@
+C:/Projects/CZIConvert/third_party/libczi/build/CMakeFiles/ALL_BUILD.dir
+C:/Projects/CZIConvert/third_party/libczi/build/CMakeFiles/ZERO_CHECK.dir
+C:/Projects/CZIConvert/third_party/libczi/build/Src/CMakeFiles/eigen_ext.dir
+C:/Projects/CZIConvert/third_party/libczi/build/Src/JxrDecode/CMakeFiles/JxrDecodeStatic.dir
+C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/CMakeFiles/libCZI.dir
+C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/CMakeFiles/libCZIStatic.dir

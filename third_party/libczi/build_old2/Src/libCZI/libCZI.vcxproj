@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1A162DC4-8EE9-3D53-984C-0EAF469BDEF2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libCZI</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libCZI.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libCZId</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libCZI.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libCZI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libCZI.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libCZI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libCZI.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libCZI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\vendor\eigen3\src\eigen_ext;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\lib;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug";LIBCZI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";LIBCZI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\vendor\eigen3\src\eigen_ext;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\lib;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\vendor\eigen3\src\eigen_ext;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\lib;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Projects/dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/Debug/libCZId.dll -installedDir C:/Projects/dev/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\_deps\zstd-build\lib\Debug\zstd_static.lib;ole32.lib;Windowscodecs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/Debug/libCZId.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/Debug/libCZId.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\vendor\eigen3\src\eigen_ext;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\lib;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";LIBCZI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";LIBCZI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\vendor\eigen3\src\eigen_ext;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\lib;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\vendor\eigen3\src\eigen_ext;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\lib;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Projects/dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/Release/libCZI.dll -installedDir C:/Projects/dev/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\_deps\zstd-build\lib\Release\zstd_static.lib;ole32.lib;Windowscodecs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/Release/libCZI.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/Release/libCZI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\vendor\eigen3\src\eigen_ext;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\lib;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";LIBCZI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";LIBCZI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\vendor\eigen3\src\eigen_ext;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\lib;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\vendor\eigen3\src\eigen_ext;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\lib;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Projects/dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/MinSizeRel/libCZI.dll -installedDir C:/Projects/dev/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\_deps\zstd-build\lib\MinSizeRel\zstd_static.lib;ole32.lib;Windowscodecs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/MinSizeRel/libCZI.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/MinSizeRel/libCZI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\vendor\eigen3\src\eigen_ext;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\lib;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";LIBCZI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";LIBCZI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\vendor\eigen3\src\eigen_ext;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\lib;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\vendor\eigen3\src\eigen_ext;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\lib;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI;C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-src\build\cmake\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Projects/dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/RelWithDebInfo/libCZI.dll -installedDir C:/Projects/dev/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\_deps\zstd-build\lib\RelWithDebInfo\zstd_static.lib;ole32.lib;Windowscodecs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/RelWithDebInfo/libCZI.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/RelWithDebInfo/libCZI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Projects/CZIConvert/third_party/libczi/Src/libCZI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/CZIConvert/third_party/libczi -BC:/Projects/CZIConvert/third_party/libczi/build --check-stamp-file C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Projects/CZIConvert/third_party/libczi/Src/libCZI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/CZIConvert/third_party/libczi -BC:/Projects/CZIConvert/third_party/libczi/build --check-stamp-file C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Projects/CZIConvert/third_party/libczi/Src/libCZI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/CZIConvert/third_party/libczi -BC:/Projects/CZIConvert/third_party/libczi/build --check-stamp-file C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Projects/CZIConvert/third_party/libczi/Src/libCZI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/CZIConvert/third_party/libczi -BC:/Projects/CZIConvert/third_party/libczi/build --check-stamp-file C:/Projects/CZIConvert/third_party/libczi/build/Src/libCZI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Projects\CZIConvert\third_party\libczi\build\Src\libCZI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\BitmapOperations.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CreateBitmap.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziAttachment.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziAttachmentsDirectory.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziDimensionInfo.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziDisplaySettings.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadata.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataBuilder.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataDocumentInfo.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataDocumentInfo2.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataSegment.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziParse.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CZIReader.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziReaderCommon.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziReaderWriter.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziStructs.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziSubBlock.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziSubBlockDirectory.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziUtils.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziWriter.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\decoder.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\decoder_wic.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\decoder_zstd.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\DimCoordinate.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\IndexSet.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Lib.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Site.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Utilities.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\MD5Sum.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\MultiChannelCompositor.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\pugixml.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelAccessorBase.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelPyramidLevelTileAccessor.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelScalingTileAccessor.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelTileAccessor.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelTileCompositor.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\splines.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\stdAllocator.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamImpl.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\utilities.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\utilities_simd.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\zstdCompress.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\bitmapData.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\BitmapOperations.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziAttachment.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziAttachmentsDirectory.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziDimensionInfo.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziDisplaySettings.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadata.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataBuilder.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataDocumentInfo.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataDocumentInfo2.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziMetadataSegment.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziParse.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziReaderCommon.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CZIReader.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziReaderWriter.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziStructs.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziSubBlock.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziSubBlockDirectory.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziUtils.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\CziWriter.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\decoder.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\decoder_wic.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\decoder_zstd.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\FileHeaderSegmentData.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\ImportExport.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\inc_libCZI_Config.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\IndexSet.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Compositor.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_compress.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_DimCoordinate.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_exceptions.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Helpers.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Metadata.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Metadata2.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Pixels.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Pixels.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_ReadWrite.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Site.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Utilities.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_Write.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_StreamsLib.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\libCZI_SubBlock.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\MD5Sum.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\MultiChannelCompositor.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelAccessorBase.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelPyramidLevelTileAccessor.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelScalingTileAccessor.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelTileAccessor.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SingleChannelTileCompositor.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\Site.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\splines.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\stdAllocator.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamImpl.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\utilities.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\XmlNodeWrapper.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\BitmapOperations.hpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\pugiconfig.hpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\pugixml.hpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\jxrlibcompress.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\streamsFactory.cpp" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\curlhttpinputstream.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\curlhttpinputstream.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\windowsfileinputstream.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\windowsfileinputstream.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\uwpfileinputstream.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\uwpfileinputstream.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\simplefileinputstream.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\simplefileinputstream.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\preadfileinputstream.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\preadfileinputstream.h" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\azureblobinputstream.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\StreamsLib\azureblobinputstream.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\subblock_cache.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\subblock_cache.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SubblockMetadata.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SubblockMetadata.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SubblockAttachmentAccessor.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\SubblockAttachmentAccessor.cpp" />
+    <ClInclude Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\BitmapOperationsBitonal.h" />
+    <ClCompile Include="C:\Projects\CZIConvert\third_party\libczi\Src\libCZI\BitmapOperationsBitonal.cpp" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\JxrDecode.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\log.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\decode.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\segdec.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strdec.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strInvTransform.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strPredQuantDec.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\postprocess.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\JXRTranscode.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strenc.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\encode.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\segenc.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strFwdTransform.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strPredQuantEnc.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strcodec.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strTransform.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\image.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\adapthuff.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\strPredQuant.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\JXRGlue.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\JXRGlueJxr.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\JXRMeta.obj" />
+    <Object Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.dir\$(Configuration)\JXRGluePFC.obj" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Projects\CZIConvert\third_party\libczi\build\ZERO_CHECK.vcxproj">
+      <Project>{64E334BE-4EB0-396B-AAA4-4CAB4CE26C0F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\JxrDecode\JxrDecodeStatic.vcxproj">
+      <Project>{7B031644-617B-3639-BE86-557D1460EF4C}</Project>
+      <Name>JxrDecodeStatic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CZIConvert\third_party\libczi\build\Src\eigen_ext.vcxproj">
+      <Project>{EDF2915C-F887-3570-AF23-B43E5AFE2B51}</Project>
+      <Name>eigen_ext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CZIConvert\third_party\libczi\build\_deps\zstd-build\lib\libzstd_static.vcxproj">
+      <Project>{E49D0296-B991-3EC0-86C3-612A4FECB4BE}</Project>
+      <Name>libzstd_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
